@@ -1,0 +1,27 @@
+version: "1"
+
+service:
+  name: zoho-session-keeper
+  description: "Zoho CRM Plus session keep-alive bot using Puppeteer"
+
+build:
+  context: .
+  dockerfile: Dockerfile
+
+deploy:
+  port: 8080
+  minInstances: 1
+  maxInstances: 1
+  resources:
+    cpu: "1"
+    memory: "1Gi"
+
+environment:
+  - name: PORT
+    value: "8080"
+  - name: ZOHO_EMAIL
+    value: "${ZOHO_EMAIL}"
+  - name: ZOHO_PASSWORD
+    value: "${ZOHO_PASSWORD}"
+  - name: PUPPETEER_EXECUTABLE_PATH
+    value: "/usr/bin/chromium"

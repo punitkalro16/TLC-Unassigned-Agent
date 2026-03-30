@@ -1,0 +1,17 @@
+{
+  "name": "zoho",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node zoho_session.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "puppeteer": "^24.40.0"
+  }
+}
