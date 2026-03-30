@@ -20,7 +20,7 @@ environment:
   - name: PORT
     value: "8080"
   - name: ZOHO_EMAIL
-    value: "punitkalro@gofynd.com"
+    value: "punitkalro@fynd.com"
   - name: ZOHO_PASSWORD
     value: "Boltic@12514"
   - name: PUPPETEER_EXECUTABLE_PATH
