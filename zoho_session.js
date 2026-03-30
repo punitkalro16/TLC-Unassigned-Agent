@@ -11,7 +11,7 @@ http.createServer((req, res) => {
 
 const EMAIL = process.env.ZOHO_EMAIL;
 const PASSWORD = process.env.ZOHO_PASSWORD;
-const REFRESH_INTERVAL_MS = 1 * 60 * 1000; // 1 minute
+const REFRESH_INTERVAL_MS = 60 * 60 * 1000; // 1 hour
 const LOGIN_URL = 'https://accounts.zoho.com/signin?servicename=CRMPlus&signupurl=https://www.zoho.com/crm/crmplus/signup.html';
 const TARGET_URL = 'https://crmplus.zoho.com';
 
