@@ -20,8 +20,8 @@ environment:
   - name: PORT
     value: "8080"
   - name: ZOHO_EMAIL
-    value: "${ZOHO_EMAIL}"
+    value: "punitkalro@gofynd.com"
   - name: ZOHO_PASSWORD
-    value: "${ZOHO_PASSWORD}"
+    value: "Boltic@12514"
   - name: PUPPETEER_EXECUTABLE_PATH
     value: "/usr/bin/chromium"
